@@ -1,0 +1,31 @@
+" https://gist.github.com/simonista/8703722
+" http://stackoverflow.com/questions/1840862/favorite-minimalistic-vimrc-configuration
+
+" show file stats
+set ruler
+
+" highlight search matches
+set hlsearch
+
+" whitespace
+set wrap
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set expandtab
+set noshiftround
+set backspace=2
+
+syntax on
+filetype indent on
+set autoindent
+set number
+
+" visualize tabs and newlines
+set listchars=tab:▸\ ,eol:¬
+
+" last status
+set laststatus=2
+
+" color scheme
+colorscheme darkblue
